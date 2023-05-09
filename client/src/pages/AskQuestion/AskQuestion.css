@@ -1,0 +1,45 @@
+.ask-question{
+    min-height: 100vh;
+    background-color: #f1f2f3;      
+}
+.ask-ques-container{
+    margin: auto;    
+    max-width: 1200px;
+}
+.ask-ques-container h1{
+    padding: 80px 0px 20px 40px;    
+}
+.ask-ques-container form .ask-form-container{
+    padding: 20px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 10px;    
+    box-shadow: 0 0 10px rgb(218, 218, 218)  ;
+}
+.ask-form-container label h4{
+    margin-bottom: 0%;
+}
+.ask-question label p{
+    margin: 0%;
+    font-size: 13px;
+    padding: 3px 0px;
+}
+.ask-question label textarea{
+    width: 98.9%;
+    height: 200px;
+    resize: vertical;
+}
+.ask-question form button{
+    padding: 10px;
+    margin: 50px 0px;  
+    width: 200px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.ask-question form button:hover{
+    background-color: #0086d8;
+}

@@ -1,0 +1,31 @@
+import React from "react";
+import styles from "./Avatar.module.css";
+const Avatar = ({
+  children,
+  backgroundColor,
+  px,
+  py,
+  padding,
+  color,
+  borderRadius,
+  fontSize,
+  cursor,
+}) => {
+  const style = {
+    backgroundColor,
+    padding: `${px} ${py}`,
+    color: color || "black",
+    borderRadius,
+    fontSize,
+    textAlign: "center",
+    cursor: cursor || null,
+    textDecoration: "none",
+  };
+  return (
+    <div style={style}>
+      {children}      
+    </div>
+  );
+};
+
+export default Avatar;

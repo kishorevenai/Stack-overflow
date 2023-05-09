@@ -1,0 +1,41 @@
+.home-container-1-users {
+    min-height: 100vh;    
+    width: 100%;
+    display: flex;    
+    justify-content: space-evenly;
+    margin: 0% auto;        
+    
+}
+.HeaderUser{ 
+    height: fit-content;
+}
+.userList-container{    
+    height: fit-content;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;        
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+    gap: 30px;
+}
+.user-profile-link{    
+    display: flex;      
+    height: 50px;    
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+.user-profile-link h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;    
+    background-color: #d3d3d3;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.user-profile-link h5{
+    margin: 0px 10px;
+}
